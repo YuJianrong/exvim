@@ -28,7 +28,5 @@ syn region javaScriptComment start="/\*"  end="\*/" contains=@Spell,javaScriptCo
 " finish
 "/////////////////////////////////////////////////////////////////////////////
 
-let b:current_syntax = "javascript"
-
 " vim: ts=8
 

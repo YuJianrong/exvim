@@ -92,6 +92,9 @@ let s:ex_exvim_lang_map['wiki'] = [ 'wiki' ]
 let s:ex_exvim_lang_map['xml'] = [ 'xml' ]
 let s:ex_exvim_lang_map['qt'] = [ 'qrc', 'pro', 'pri' ]
 let s:ex_exvim_lang_map['swig'] = [ 'i', 'swg' ]
+let s:ex_exvim_lang_map['less'] = [ 'less' ]
+let s:ex_exvim_lang_map['css'] = [ 'css' ]
+let s:ex_exvim_lang_map['text'] = [ 'txt', 'text' ]
 
 " ------------------------------------------------------------------ 
 " Desc: ctags language file maps 
@@ -148,6 +151,8 @@ let s:ex_project_file_filter .= 'vim,awk,m,'
 let s:ex_project_file_filter .= 'dox,doxygen,'
 let s:ex_project_file_filter .= 'ini,cfg,wiki,'
 let s:ex_project_file_filter .= 'mk,err,exe,bat,sh,'
+let s:ex_project_file_filter .= 'txt,xml,'
+let s:ex_project_file_filter .= 'less,css,'
 
 " ------------------------------------------------------------------ 
 " Desc: project dir filter 
